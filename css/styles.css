@@ -296,6 +296,17 @@ body {
         padding-left:0;
     }
 
+    .btn {
+        display: block;
+        margin: 0 0.5rem 0.5rem 0;
+    }
+    .btn:active {
+        background-color: #f39c12;
+        color: white;
+        transition: 300ms;
+        transition-property: all;
+    }
+
     .page {
         padding: 0 1rem;
     }
@@ -303,6 +314,7 @@ body {
     .nav {
         padding: 1rem;
         display: inline;
+        position: static;
     }
 
     .nav .title {
