@@ -137,7 +137,12 @@ body {
 }
 
 .picture {
-    width: 95%;
+    width: 60%;
+    height: 300px;
+}
+
+#tauros {
+    width: 100%;
 }
 
 
@@ -191,7 +196,9 @@ body {
     margin-bottom: 2rem;
     width: 50%;
 }
-
+.card-header {
+    width: 100%;
+}
 .card-title {
     margin: 2rem 1rem;
     font-size: 1.7em;
